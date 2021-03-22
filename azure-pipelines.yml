@@ -6,6 +6,9 @@
 trigger:
 - master
 
+pool:
+  vmimage: ubuntu-latest
+
 steps:
 - task: Maven@3
   inputs:
